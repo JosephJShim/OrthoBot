@@ -30,7 +30,7 @@ export function Button({ color, handleClick, children }) {
     }
 
     return (
-        <button className={`${backgroundColor} ${ringColor} ${hoverColor} ring-4 text-white font-bold text-xl px-3 py-1 w-fit rounded-xl`} onClick={() => handleClick}>
+        <button className={`${backgroundColor} ${ringColor} ${hoverColor} ring-4 text-white font-bold text-xl px-3 py-1 w-fit rounded-xl min-w-fit`} onClick={handleClick}>
             {children}
         </button>
     )

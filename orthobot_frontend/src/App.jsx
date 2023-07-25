@@ -1,18 +1,24 @@
 import { Outlet } from 'react-router-dom';
 
-import { NavBar } from "./components/NavBar.jsx";
+import { HeaderBar } from "./components/HeaderBar.jsx";
+import { FooterBar } from "./components/FooterBar.jsx";
 
 export function App() {
   return (
     <>
         <header>
-            <NavBar />
+            <HeaderBar />
         </header>
         <main>
             <div className='flex flex-row justify-center'>
-                <Outlet />
+                <div className="flex flex-col gap-y-[20px] w-5/6 max-w-[750px]">
+                    <Outlet />
+                </div>
             </div>
         </main>
+        <footer>
+            <FooterBar />
+        </footer>
     </>
   )
 }

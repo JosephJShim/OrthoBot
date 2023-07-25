@@ -26,19 +26,19 @@ const router = createBrowserRouter([
                 element: <BodyPartSelection />,
             },
             {
-                path: "question/:body_part_id/:question_id",
+                path: "questions/:body_part/:question_id",
                 element: <Question />,
             },
             {
-                path: "results/:body_part_id/visit_er",
+                path: "results/:body_part/visit_er",
                 element: <Emergency />,
             },
             {
-                path: "results/:body_part_id/visit_pt",
+                path: "results/:body_part/visit_pt",
                 element: <PTVisit />,
             },
             {
-                path: "results/:body_part_id/rice_observe_pt",
+                path: "results/:body_part/rice_observe_pt",
                 element: <RiceInstructions />,
             },
         ],
