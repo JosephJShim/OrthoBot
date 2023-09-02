@@ -13,7 +13,7 @@ export function BodyPartSelection() {
                 Body Part Selection
             </Title>
 
-            <Text justification="text-center">
+            <Text justification="text-left">
                 Please select the relevant region of the body from the options below.
             </Text>
 
