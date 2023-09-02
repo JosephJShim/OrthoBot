@@ -17,16 +17,16 @@ export function Question() {
                 {questions[body_part]["part"]}
             </Title>
 
-            <Text justification="text-center">
+            <Text justification="text-left">
                 {questions[body_part]["questions"][question_id]["text"]}
             </Text>
 
             <div className="flex flex-row justify-center gap-x-[20px]">
-                <Button color="green" handleClick={() => navigate(questions[body_part]["questions"][question_id]["answers"][0]["forward_route"])}>
+                <Button color="blue" handleClick={() => navigate(questions[body_part]["questions"][question_id]["answers"][0]["forward_route"])}>
                     {questions[body_part]["questions"][question_id]["answers"][0]["text"]}
                 </Button>
 
-                <Button color="red" handleClick={() => navigate(questions[body_part]["questions"][question_id]["answers"][1]["forward_route"])}>
+                <Button color="blue" handleClick={() => navigate(questions[body_part]["questions"][question_id]["answers"][1]["forward_route"])}>
                     {questions[body_part]["questions"][question_id]["answers"][1]["text"]}
                 </Button>
             </div>

@@ -25,6 +25,9 @@ export function BodyPartSelection() {
                     <Button color="blue" handleClick={() => navigate("/questions/wrist/0")}>
                         Wrist
                     </Button>
+                    <Button color="blue" handleClick={() => navigate("/questions/finger/0")}>
+                        Finger(s)
+                    </Button>
                     <Button color="blue" handleClick={() => navigate("/questions/elbow/0")}>
                         Elbow
                     </Button>
@@ -54,6 +57,9 @@ export function BodyPartSelection() {
                     </Button>
                     <Button color="blue" handleClick={() => navigate("/questions/foot/0")}>
                         Foot
+                    </Button>
+                    <Button color="blue" handleClick={() => navigate("/questions/toe/0")}>
+                        Toe(s)
                     </Button>
                 </div>
             </div>

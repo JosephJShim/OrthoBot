@@ -9,7 +9,7 @@ export function Emergency() {
                 EMERGENCY
             </div>
 
-            <Text justification="text-justify">
+            <Text justification="text-left">
                 Based on your responses, we suggest visiting an emergency room, immediate care center, or a doctor. Please call 911 or make an appointment with your nearest care provider.
             </Text>
         </>

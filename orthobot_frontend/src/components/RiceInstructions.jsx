@@ -9,7 +9,7 @@ export function RiceInstructions() {
                 Suggestions
             </Title>
 
-            <Text justification="text-justify">
+            <Text justification="text-left">
                 Based on your responses, we suggest the use of the RICE (Rest Ice Compress Elevate) method, hospital observation, or physical therapy.
             </Text>
 

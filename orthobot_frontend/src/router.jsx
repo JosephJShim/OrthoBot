@@ -7,6 +7,7 @@ import { Emergency } from "./components/Emergency.jsx";
 import { PTVisit } from "./components/PTVisit.jsx";
 import { Question } from "./components/Question.jsx";
 import { RiceInstructions } from "./components/RiceInstructions.jsx";
+import { Imaging } from "./components/Imaging.jsx";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: "results/:body_part/rice_observe_pt",
                 element: <RiceInstructions />,
+            },
+            {
+                path: "results/:body_part/imaging",
+                element: <Imaging />,
             },
         ],
     },
