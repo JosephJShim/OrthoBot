@@ -1,10 +1,13 @@
 import { Title } from "./utilities/Title.jsx"
 import { Text } from "./utilities/Text.jsx"
 import { Button } from "./utilities/Button.jsx"
+import { InnerNavBar } from "./utilities/InnerNavBar.jsx";
 
 export function RiceInstructions() {
     return (
         <>
+            <InnerNavBar />
+
             <Title>
                 Suggestions
             </Title>
@@ -14,13 +17,13 @@ export function RiceInstructions() {
             </Text>
 
             <div className="flex flex-col items-center gap-y-[30px]">
-                <Button color="blue" handleClick={() => { }}>
+                <Button color="turquoise" handleClick={() => { }}>
                     View RICE instructions
                 </Button>
-                <Button color="blue" handleClick={() => { }}>
+                <Button color="turquoise" handleClick={() => { }}>
                     Find observation locations
                 </Button>
-                <Button color="blue" handleClick={() => { }}>
+                <Button color="turquoise" handleClick={() => { }}>
                     Schedule a physical therapy appointment
                 </Button>
             </div>

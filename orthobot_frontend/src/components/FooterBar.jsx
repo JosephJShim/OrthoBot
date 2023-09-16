@@ -9,11 +9,11 @@ export function FooterBar() {
             <div className="fixed bottom-0 left-0 w-full shadow-xl">
                 <div className="flex flex-row gap-x-[20px] items-center relative bg-slate-200 w-full h-[60px]">
                     <div className="w-0"></div>
-                    <Button color="blue" handleClick={() => navigate("/")}>
+                    <Button color="turquoise" handleClick={() => navigate("/")}>
                         Restart
                     </Button>
                     <div className="flex-auto"></div>
-                    <Button color="red" handleClick={() => navigate("/emergency")}>
+                    <Button color="turquoise" handleClick={() => navigate("/emergency")}>
                         I have an emergency
                     </Button>
                     <div className="w-0"></div>

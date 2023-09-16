@@ -31,11 +31,11 @@ export function Disclaimer() {
             </Text>
 
             <div className="flex flex-row flex-wrap gap-x-[20px] gap-y-[30px] justify-center">
-                <Button color="green" handleClick={() => navigate('/body_part_selection')}>
+                <Button color="turquoise" handleClick={() => navigate('/body_part_selection')}>
                     I agree
                 </Button>
-                <Button color="red" handleClick={() => navigate('/emergency')}>
-                    I DO NOT agree / I have a medical emergency
+                <Button color="turquoise" handleClick={() => navigate('/emergency')}>
+                    I DO NOT agree
                 </Button>
             </div>
         </>

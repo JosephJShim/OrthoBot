@@ -1,11 +1,12 @@
-import { Title } from "./utilities/Title.jsx"
 import { Text } from "./utilities/Text.jsx"
-import { Button } from "./utilities/Button.jsx"
+import { InnerNavBar } from "./utilities/InnerNavBar.jsx";
 
 export function Emergency() {
     return (
         <>
-            <div className="text-red-500 text-5xl text-center">
+            <InnerNavBar />
+
+            <div className="text-red-500 text-5xl text-left">
                 EMERGENCY
             </div>
 

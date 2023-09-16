@@ -16,7 +16,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/foot/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -32,7 +33,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/foot/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/foot/1"
             },
             {
                 "id": 2,
@@ -48,7 +50,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/foot/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/foot/2"
             }
         ]
     },
@@ -69,7 +72,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/ankle/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -85,7 +89,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/ankle/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/ankle/1"
             },
             {
                 "id": 2,
@@ -101,7 +106,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/ankle/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/ankle/2"
             }
         ]
     },
@@ -122,7 +128,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/knee/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -138,7 +145,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/knee/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/knee/1"
             },
             {
                 "id": 2,
@@ -154,7 +162,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/knee/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/knee/2"
             }
         ]
     },
@@ -175,7 +184,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/hip/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -191,7 +201,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/hip/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/hip/1"
             },
             {
                 "id": 2,
@@ -207,7 +218,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/hip/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/hip/2"
             }
         ]
     },
@@ -228,7 +240,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/back/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -244,7 +257,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/back/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/back/1"
             },
             {
                 "id": 2,
@@ -260,7 +274,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/back/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/back/2"
             },
             {
                 "id": 3,
@@ -276,7 +291,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/back/4"
                     }
-                ]
+                ],
+                "backward_route": "/questions/back/3"
             },
             {
                 "id": 4,
@@ -292,7 +308,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/back/visit_pt"
                     }
-                ]
+                ],
+                "backward_route": "/questions/back/4"
             }
         ]
     },
@@ -313,7 +330,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/neck/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -329,7 +347,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/neck/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/neck/1"
             },
             {
                 "id": 2,
@@ -345,7 +364,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/neck/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/neck/2"
             },
             {
                 "id": 3,
@@ -361,7 +381,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/neck/4"
                     }
-                ]
+                ],
+                "backward_route": "/questions/neck/3"
             },
             {
                 "id": 4,
@@ -377,7 +398,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/neck/visit_pt"
                     }
-                ]
+                ],
+                "backward_route": "/questions/neck/4"
             }
         ]
     },
@@ -398,7 +420,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/shoulder/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -414,7 +437,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/shoulder/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/shoulder/1"
             },
             {
                 "id": 2,
@@ -430,7 +454,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/shoulder/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/shoulder/2"
             },
             {
                 "id": 3,
@@ -446,7 +471,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/shoulder/visit_pt"
                     }
-                ]
+                ],
+                "backward_route": "/questions/shoulder/3"
             }
         ]
     },
@@ -467,7 +493,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/elbow/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -483,7 +510,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/elbow/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/elbow/1"
             },
             {
                 "id": 2,
@@ -499,7 +527,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/elbow/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/elbow/2"
             },
             {
                 "id": 3,
@@ -515,7 +544,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/elbow/visit_pt"
                     }
-                ]
+                ],
+                "backward_route": "/questions/elbow/3"
             }
         ]
     },
@@ -536,7 +566,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/wrist/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -552,7 +583,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/wrist/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/wrist/1"
             },
             {
                 "id": 2,
@@ -568,7 +600,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/wrist/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/wrist/2"
             }
         ]
     },
@@ -589,7 +622,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/hand/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -605,7 +639,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/hand/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/hand/1"
             },
             {
                 "id": 2,
@@ -621,16 +656,17 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/hand/visit_er"
                     }
-                ]
+                ],
+                "backward_route": "/questions/hand/2"
             }
         ]
     },
     finger: {
-        "part": "Finger(s)",
+        "part": "Finger",
         "questions": [
             {
                 "id": 0,
-                "text": "Did you have an injury associated with immediate swelling, bruising, or inability to move the finger(s)?",
+                "text": "Did you have an injury associated with immediate swelling, bruising, or inability to move the finger?",
                 "answers": [
                     {
                         "id": 0,
@@ -642,7 +678,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/finger/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -658,11 +695,12 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/finger/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/finger/1"
             },
             {
                 "id": 2,
-                "text": "Does moving the finger(s) with an unaffected hand cause pain?",
+                "text": "Does moving the finger with an unaffected hand cause pain?",
                 "answers": [
                     {
                         "id": 0,
@@ -674,16 +712,17 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/hand/visit_pt"
                     }
-                ]
+                ],
+                "backward_route": "/questions/finger/2"
             }
         ]
     },
     toe: {
-        "part": "Toe(s)",
+        "part": "Toe",
         "questions": [
             {
                 "id": 0,
-                "text": "Did you have an injury associated with immediate swelling, bruising, or inability to move the toe(s)?",
+                "text": "Did you have an injury associated with immediate swelling, bruising, or inability to move the toe?",
                 "answers": [
                     {
                         "id": 0,
@@ -695,7 +734,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/toe/1"
                     }
-                ]
+                ],
+                "backward_route": "/body_part_selection"
             },
             {
                 "id": 1,
@@ -711,11 +751,12 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/questions/toe/2"
                     }
-                ]
+                ],
+                "backward_route": "/questions/toe/1"
             },
             {
                 "id": 2,
-                "text": "Does moving the toe(s) with an unaffected hand cause pain?",
+                "text": "Does moving the toe with an unaffected hand cause pain?",
                 "answers": [
                     {
                         "id": 0,
@@ -727,7 +768,8 @@ export const questions = {
                         "text": "No",
                         "forward_route": "/results/hand/visit_pt"
                     }
-                ]
+                ],
+                "backward_route": "/questions/toe/2"
             }
         ]
     }

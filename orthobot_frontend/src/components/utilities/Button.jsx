@@ -27,6 +27,12 @@ export function Button({ color, handleClick, children }) {
             hoverColor = "hover:bg-slate-500";
             borderColor = "border-slate-700";
             break;
+
+        case "turquoise":
+            backgroundColor = "bg-[#337588]";
+            hoverColor = "hover:bg-[#275A69]";
+            borderColor = "border-[#16323B]";
+            break;
     }
 
     return (
