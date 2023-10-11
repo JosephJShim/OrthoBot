@@ -203,7 +203,7 @@ export function BodyPartSelection() {
                         left: '400px', 
                         top: '2100px',
                         width: '215px',
-                        height: '1090px',
+                        height: '90px',
                     }}
                     onClick={() => navigate("/questions/ankle/0")}
                 >
@@ -213,14 +213,14 @@ export function BodyPartSelection() {
                 <button
                     style={{
                         ...buttonStyles,
-                        // Front; Feet
+                        // Front; Foot
                         // TopLeft: 350, 2190; BottomRight: 675, 2315  
                         left: '350px', 
                         top: '2190px',
                         width: '325px',
                         height: '125px',
                     }}
-                    onClick={() => navigate("/questions/feet/0")}
+                    onClick={() => navigate("/questions/foot/0")}
                 >
                     Feet
                 </button>
@@ -250,7 +250,7 @@ export function BodyPartSelection() {
                         width: '275px',
                         height: '420px',
                     }}
-                    onClick={() => navigate("/questions/Back/0")}
+                    onClick={() => navigate("/questions/back/0")}
                 >
                     Back
                 </button>
